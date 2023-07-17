@@ -20,7 +20,6 @@ To use this repo it is recommended you create a fork of this repo and then make 
 some of the codes locally in addition to using google colab to run the LBC_main.ipnyb file.
 
 
-The first we need to accomplish is automate data transfer from google drive to local. Please see the folder "datapipelines" in the current repository for a script that
-list all of the files and folder in your google drive by using a unique ID and name for
-each listing. you may then use the ID corresponding to any folder  or file to pull that folder or file from google drive
+The first thing we need to accomplish is automate data transfer from google drive to local. Please see the folder "datapipelines" in the current repository for a script that
+list all of the files and folder in your google drive by using a unique ID and lists ids and corresponding names for all files and folders in the google drive, you may then use the ID corresponding to any folder  or file to pull that folder or file from google drive using one of the python script in the datapipelines folder.
 
