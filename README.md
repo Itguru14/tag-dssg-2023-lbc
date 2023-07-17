@@ -1,4 +1,4 @@
-# LBC_project
+# TAG-DSSG-2023-LBC_project
 
 This repo will serve as the shared repo for us to collaborate on the LBC TAG summer project. 
 
