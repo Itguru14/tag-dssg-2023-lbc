@@ -9,7 +9,7 @@ We will be using Google Colab and Tableau concurrently for the project as agreed
 
 find below a brief description of the main directories and files in this repo and their functions
 
-/data      -    Intended to hold data for the project that can be hosted on a public repository of this nature\ \
+/datapipelines      -   Intended to hold scripts for automating download of data from google drive\ \
 /utilities -    various samples code, code snippets, images etc that will be necessary for the main analysis files\ \
 .gitignore -      used to instruct git which files should be ignored when using git version control\
 LBC_main.ipynb  - main file for the google colab analysis \
