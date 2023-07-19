@@ -29,15 +29,15 @@ def mask_id(id):
     return re.sub(r'\b[A-Za-z0-9]+\b', '########', id)
 
 # def mask_name(Name):
-#     return re.sub(r'\b[A-Za-z0-9]+\b', '########', Name)
+#     return re.sub(r'\b[A-Za-z0-9]+\b', '########', Name)             #uncomment this function and edit the regex to match the name format
 
      
 # def mask_address(Address):
-#     return re.sub(r'\b[A-Za-z0-9]+\b', '########', Address)
+#     return re.sub(r'\b[A-Za-z0-9]+\b', '########', Address)          #uncomment this function and edit the regex to match the Address format
 
 
 # def mask_phone_number(phone_number):
-#     return re.sub(r'\b[+0-9]+\b', '########', phone_number)
+#     return re.sub(r'\b[+0-9]+\b', '########', phone_number)          #uncomment this function and edit the regex to match the phone number format
 
 
 
