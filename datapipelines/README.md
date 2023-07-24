@@ -36,3 +36,11 @@ resulting credential file as credentials.json in the present working directory w
 This script should pulls the require data from google drive using the specified
 id in folder_id. it uses the zdrive module which must be installed before you are able to use the script. Please replace the folder_id with the id corresponding to the data folder TAG DSSG 2023 - Data (PII Stripped, v1), you can obtain the required folder id by running the script "03_gdrive_file_id_list.py" which lists all the ids and corresponding names of all files and folders on your google drive so you can pick the Id corresponding
 to TAG DSSG 2023 - Data (PII Stripped, v1). the pulled data will be saved in a folder named 'drive_content'
+
+
+
+## Data Transformation and PreProprocessing.
+
+Typically in most Data anlysis endeavors the original data available for analysis is never in an ideal state that can just used for the analysis, hence the term messy data which is a term synonymous with data  that can not be used to carry out required analysis without some form of data transformation aimed at improving the quality of the data before any analysis is done. To this end we would carry out a few simple transformation on the available data for this project. The first transformaation is to a data aggregation operation aimed at nerging several files of the given dataset into fewer files so as to be able to have all necessary data in one place for the purpose of analysis. The second transformation is to remove columns in data files that may offer little to no value in other to make the data more manageable. To carry out this two transformnation we use the py scripts in The subfolder named "datapipelines" in this directory. The scripts outputs a single csv file for each for subfolder in the main data folder containing several .xlsx or csv files the single csv file contain all the aggregated data from seven all of the files in each folder stcked together.
+
+
