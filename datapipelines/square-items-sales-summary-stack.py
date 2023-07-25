@@ -28,10 +28,10 @@ for f in flist:
      
 print(df.shape)
 
-deletion_threshhold=0.1                              #removes all columns in the dataframe with proportion of empty values greater than threshold
-df = df.loc[:, df.isin([' ','NULL', np.nan]).mean() < deletion_threshhold]    #may include whatever signify 'empty' 
+deletion_threshhold=1                              #removes all columns in the dataframe with proportion of empty values greater than threshold
+df = df.loc[:, df.isin([' ','NULL', np.nan]).mean() != deletion_threshhold]    #may include whatever signify 'empty'
 
 
 print(df.shape)
-df.to_csv('square-items-sales-summary-stack.csv')     
+df.to_csv('square-items-sales-summary-stack.csv', index=False)     
      
