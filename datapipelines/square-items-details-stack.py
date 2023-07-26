@@ -35,7 +35,7 @@ print(df.shape)
 #Amount
 #Job_Location_Zip__c
 
-deletion_threshhold=1                              #removes all columns in the dataframe with proportion of empty values greater than threshold
+deletion_threshhold=1                              #removes all columns in the dataframe with proportion of empty values equal to threshold
 df = df.loc[:, df.isin([' ','NULL', np.nan]).mean() != deletion_threshhold]    #may include whatever signify 'empty'
 
 
