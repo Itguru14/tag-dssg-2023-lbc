@@ -6,7 +6,7 @@ import numpy as np
 import pathlib
 from pathlib import Path
 #import Path
-# you must change cwd to where this file is located to run this filels
+# you must change cwd to where this file is located to run this script
 
 
 flist = []
